@@ -151,3 +151,7 @@ hdfs dfs -mkdir /user/hdadmin
 
 
 hdfs dfs -put /
+
+hadoop jar /home/hdadmin/hdp3/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.1.jar wordcount /user/data /user/output
+
+
